@@ -1,0 +1,35 @@
+.add-container {
+  width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fefefe;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-form button {
+  padding: 10px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-form button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,77 @@
+/* Entire Layout */
+.dashboard-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+/* Top Navbar */
+.dashboard-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4caf50;
+  padding: 15px 30px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dashboard-navbar button {
+  background-color: crimson;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Body layout: Sidebar + Main */
+.dashboard-body {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar */
+.dashboard-sidebar {
+  width: 200px;
+  background-color: #f3f3f3;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-right: 1px solid #ddd;
+}
+
+.dashboard-sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.dashboard-sidebar a:hover {
+  color: #4caf50;
+}
+
+/* Main Content */
+.dashboard-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.sweet-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.sweet-card {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
